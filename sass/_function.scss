@@ -1,4 +1,0 @@
-@use 'sass:math';
-@function lineH($s, $h) {
-  @return math.div($s, $h);
-}
