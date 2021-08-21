@@ -1,6 +1,6 @@
 .footer {
   &-top {
-    padding: 150px 0px;
+    padding: 450px 0px 100px;
     background-color: $gray-dark;
   }
   &-main {
@@ -15,6 +15,7 @@
   &-desc {
     font-size: 16px;
     margin-bottom: 40px;
+    line-height: lineH(30, 16);
   }
   .social {
     display: flex;
@@ -89,7 +90,7 @@
   }
   @include maxWidth(1023px) {
     &-top {
-      padding: 100px 0;
+      padding: 250px 0 100px;
     }
     &-main {
       grid-gap: 0 30px;
@@ -97,7 +98,7 @@
   }
   @include maxWidth(767px) {
     &-top {
-      padding: 50px 0;
+      padding: 250px 0 50px;
     }
     &-main {
       grid-template-columns: 1fr;
